@@ -1,0 +1,44 @@
+header a img{
+    width: 300px;
+    height: 200px;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+li  a, punto{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.9cm   0.5cm;
+}
+
+.desplegable{
+    display: none;
+    background-color: blue;
+     position: absolute;
+}
+
+.desplegable a{
+    color: black;
+    display:block;
+    text-align: left;
+}
+  
+.punto:hover  .desplegable{
+    display: block;
+}
+
+li a:hover{
+    background-color: rgb(0, 255, 98);
+}
+
+.pricipal{
+    background-color: lemonchiffon;
+}
+
+body{
+    background-color: burlywood;
+  }
